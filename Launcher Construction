@@ -1,0 +1,4 @@
+#Launcher Construction
+The pinball launcher solenoid is controlled by the ardiuno. The ardiuno is wired to a simnple push button the recive user input. 
+The ardiuno drives the solenoid by toggeling a normally open relay to control the flow of 36v of power. The solenoid is wired on the open side
+of the relay with a diode wired in revse to disapte voltage spikes and circuit protection.
