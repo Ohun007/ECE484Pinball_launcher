@@ -1,4 +1,4 @@
-#Launcher Construction
+# Launcher Construction
 The pinball launcher solenoid is controlled by the ardiuno. The ardiuno is wired to a simnple push button the recive user input. 
 The ardiuno drives the solenoid by toggeling a normally closed relay to control the flow of 36v of power. The solenoid is wired on the open side
 of the relay with a diode wired in revse to disapte voltage spikes and circuit protection.
@@ -9,7 +9,7 @@ The solenoid used: 1568-1579-ND
 
 
 
-#Initial Proposal
+# Initial Proposal
 This repository will hold the code for our ECE484 Pinball machine's launch control, using an electromagnetic launcher, controlled by a button for a single ball
 and by Arduino to add multiple balls. The launcher's button will charge the capacitor to determine launch power when launched by the player. The Arduino will fire
 at set power when multi-ball mode is activated. The ball will be moved into the rails or coil by a server controlled by the Arduino. Depending on development, there
